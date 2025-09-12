@@ -1,0 +1,17 @@
+[package]
+name = "entity"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+
+[dependencies]
+sea-orm = { version = "1.1.0", features = ["macros", "uuid", "chrono"] }
+uuid = { version = "1", features = ["serde", "v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+
+[dependencies.sea-orm-migration]
+version = "1.1.0"
+
+[lib]
+path = "src/mod.rs"

@@ -1,0 +1,1 @@
+C:\Users\rak34\OneDrive\Desktop\rustserver\server\migration\target\debug\libmigration.rlib: C:\Users\rak34\OneDrive\Desktop\rustserver\server\migration\src\lib.rs C:\Users\rak34\OneDrive\Desktop\rustserver\server\migration\src\m20220101_000001_create_table.rs
