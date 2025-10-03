@@ -176,7 +176,7 @@ pub async fn gemini_client(contents: serde_json::Value, key: &str) -> Result<Str
     let client = Client::new();
 
     let res = client
-        .post("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent")
+        .post("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent")
         .query(&[("key", key)]) // Key is used here
         .json(&serde_json::json!({ "contents": [contents] }))
         .send()
